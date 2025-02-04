@@ -21,7 +21,7 @@ connectDB();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://project-esaf-756f.vercel.app",
+    origin: "https://esaf-756f.vercel.app",
     credentials: true,
   })
 );
